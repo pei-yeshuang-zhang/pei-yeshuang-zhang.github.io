@@ -64,7 +64,5 @@ p {
   font: 700 2vw 'Manrope', sans-serif;
   padding-top: 3vh;
   height: 8vh;
-  background-color: #ff5900;
-  margin-top: 3vh;
-  border-top: 2px solid black;
+  border-top: 2px solid #7F8487;
 }
