@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+li {
+  list-style: none;
+}
 a {
   text-decoration: none;
   color: black;
@@ -49,8 +52,6 @@ h1 {
   width: 96vw;
 }
 .tech-left {
-  left: 0;
-  list-style: none;
   font: 700 2vw 'Manrope', sans-serif;
   height: 60vh;
   width: 48vw;
@@ -60,7 +61,6 @@ h1 {
   letter-spacing: 1px;
 }
 .tech-right {
-  list-style: none;
   float: right;
 }
 .tech-image {
@@ -77,11 +77,9 @@ h1 {
   width: 96vw;
 }
 .core-left {
-  list-style: none;
   float: left;
 }
 .core-right {
-  list-style: none;
   font: 700 2vw 'Manrope', sans-serif;
   height: 60vh;
   width: 48vw;
@@ -105,7 +103,6 @@ h1 {
   width: 96vw;
 }
 .about-left {
-  list-style: none;
   font: 700 2vw 'Manrope', sans-serif;
   height: 60vh;
   width: 48vw;
@@ -115,7 +112,6 @@ h1 {
   letter-spacing: 1px;
 }
 .about-right {
-  list-style: none;
   float: right;
 }
 .about-image {
