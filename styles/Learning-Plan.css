@@ -45,6 +45,7 @@ h1 {
 .content-container {
   width: 75vw;
   margin: 100px auto;
+  padding: 30px;
   background-color: #d6d6d6;
 }
 h2 {
