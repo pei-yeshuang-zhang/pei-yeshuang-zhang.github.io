@@ -48,12 +48,29 @@ h1 {
   padding: 30px;
   background-color: #d6d6d6;
 }
+@media screen and (max-width:320px) {
+  .content-container {
+    width: 100vw;
+    margin: 30px auto;
+    padding: 0;
+    background-color: #d6d6d6;
+  }
+}
 img {
   height: 50%;
   width: 50%;
   margin: 0 auto;
   padding: 30px;
   display: block;
+}
+@media screen and (max-width:320px) {
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+  }
 }
 h2 {
   font: 700 1.3em 'Manrope', sans-serif;
