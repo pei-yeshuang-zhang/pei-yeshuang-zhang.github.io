@@ -39,8 +39,9 @@ a {
   background-color: #ff5900;
 }
 h1 {
-  font: 300 7vw 'Manrope', sans-serif;
+  font: 300 6vw 'Manrope', sans-serif;
   text-align: center;
+  padding: 10px;
 }
 .content-container {
   width: 75vw;
