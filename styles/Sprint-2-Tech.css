@@ -45,16 +45,24 @@ h1 {
 .content-container {
   width: 75vw;
   margin: 100px auto;
+  padding: 30px;
   background-color: #d6d6d6;
 }
 img {
   height: 50%;
   width: 50%;
   margin: 0 auto;
+  padding: 30px;
   display: block;
 }
 h2 {
   font: 700 1.3em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 20px;
+}
+h4 {
+  font: 400 1.1em 'Manrope', sans-serif;
   text-align: left;
   line-height: 30px;
   padding: 20px;
