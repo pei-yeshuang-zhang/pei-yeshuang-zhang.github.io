@@ -79,11 +79,27 @@ h2 {
   line-height: 30px;
   padding: 20px;
 }
+@media screen and (max-width:320px) {
+  h2 {
+    font: 700 1em 'Manrope', sans-serif;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px;
+  }
+}
 h4 {
   font: 400 1.1em 'Manrope', sans-serif;
   text-align: left;
   line-height: 30px;
   padding: 20px;
+}
+@media screen and (max-width:320px) {
+  h4 {
+  font: 400 1em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 20px;
+  }
 }
 p {
   font: 400 1em 'Manrope', sans-serif;
@@ -91,11 +107,25 @@ p {
   line-height: 30px;
   padding: 5px 20px;
 }
+@media screen and (max-width:320px) {
+  p {
+    font: 400 0.8em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 5px 20px;
+  }
+}
 .list {
   list-style: inside;
   font: 400 1em 'Manrope', sans-serif;
   line-height: 30px;
-
+}
+@media screen and (max-width:320px) {
+  .list {
+  list-style: inside;
+  font: 400 0.8em 'Manrope', sans-serif;
+  line-height: 30px;
+  }
 }
 .footer {
   text-align: center;

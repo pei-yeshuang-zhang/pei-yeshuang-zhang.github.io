@@ -48,17 +48,41 @@ h1 {
   padding: 30px;
   background-color: #d6d6d6;
 }
+@media screen and (max-width:320px) {
+  .content-container {
+    width: 100vw;
+    margin: 100px auto;
+    padding: 0;
+    background-color: #d6d6d6;
+  }
+}
 h2 {
   font: 700 1.3em 'Manrope', sans-serif;
   text-align: left;
   line-height: 30px;
   padding: 20px;
 }
+@media screen and (max-width:320px) {
+  h2 {
+    font: 700 1em 'Manrope', sans-serif;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px;
+  }
+}
 p {
   font: 400 1em 'Manrope', sans-serif;
   text-align: left;
   line-height: 30px;
   padding: 5px 20px;
+}
+@media screen and (max-width:320px) {
+  p {
+    font: 400 0.8em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 5px 20px;
+  }
 }
 .footer {
   text-align: center;
