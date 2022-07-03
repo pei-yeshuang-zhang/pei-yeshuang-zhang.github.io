@@ -11,7 +11,6 @@ a {
   display: block;
 }
 .topbar-container {
-  position: relative;
   width: 96vw;
   height: 7.1vh;
   margin: 0 auto;
@@ -23,7 +22,6 @@ a {
   text-align: center;
 }
 .nav li {
-  list-style: none;
   float: left;
 }
 .nav-link {
@@ -47,4 +45,12 @@ h1 {
   text-align: center;
   padding: 5px 20px;
   line-height: 100px;
+}
+@media screen and (max-width: 320px) {
+ .blog-list {
+  font: 200 1.2em 'Manrope', sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  line-height: 50px;
+ } 
 }
