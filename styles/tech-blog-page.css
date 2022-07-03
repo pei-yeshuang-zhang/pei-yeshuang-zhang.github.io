@@ -48,3 +48,11 @@ h1 {
   padding: 5px 20px;
   line-height: 100px;
 }
+@media screen and (max-width: 320px) {
+  .blog-list {
+   font: 200 1.2em 'Manrope', sans-serif;
+   text-align: center;
+   padding: 50px 20px;
+   line-height: 50px;
+  } 
+ }
