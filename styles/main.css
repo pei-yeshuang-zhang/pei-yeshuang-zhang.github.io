@@ -60,6 +60,12 @@ h2 {
   font: 700 3vw 'Manrope', sans-serif;
   line-height: 100px;
 }
+h3 {
+  font: 700 1.3em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 20px;
+}
 p {
   font: 300 2vw 'Manrope', sans-serif;
   line-height: 45px;
@@ -94,7 +100,7 @@ img {
     height: 30vh;
     width: 96vw;
   }
-}
+} 
 .blog {
   width: 48vw;
   height: 59.8vh;
@@ -134,11 +140,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me, #core-blog {
+#about-me, #core-blog, #identity-values {
   font: 300 10vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header, .core-blog-header {
+.about-me-header, .core-blog-header, .identity-values-header {
   height: 15vh;
   background-color: #ff5900;
 }
@@ -148,4 +154,16 @@ img {
   padding: 5px 20px;
   line-height: 100px;
   
+}
+p {
+  font: 400 1em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+.text-container {
+  width: 75vw;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #d6d6d6;
 }
