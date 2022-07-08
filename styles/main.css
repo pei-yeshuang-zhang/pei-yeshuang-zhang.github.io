@@ -134,3 +134,18 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
+#about-me {
+  font: 300 10vw 'Manrope', sans-serif;
+  text-align: center;
+}
+.about-me-header {
+  height: 15vh;
+  background-color: #ff5900;
+}
+.blog-list {
+  font: 400 3em 'Manrope', sans-serif;
+  text-align: center;
+  padding: 5px 20px;
+  line-height: 100px;
+  
+}
