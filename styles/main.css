@@ -148,11 +148,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me, #core-blog, #identity-values, #learning-plan, #sprint-2-tech, #tech-blog {
+#about-me, #core-blog, #identity-values, #learning-plan, #sprint-2-tech, #tech-blog, #emotional-intelligence {
   font: 300 8vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header, .sprint-2-tech-header, .tech-blog-header {
+.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header, .sprint-2-tech-header, .tech-blog-header, .emotional-intelligence-header {
   height: 15vh;
   background-color: #ff5900;
 }
@@ -173,4 +173,34 @@ img {
   list-style: inside;
   font: 400 1em 'Manrope', sans-serif;
   line-height: 30px;
+}
+
+/* -- STYLING FOR TABLE IN EMOTIONAL INTELLIGENCE -- */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 50px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
 }
