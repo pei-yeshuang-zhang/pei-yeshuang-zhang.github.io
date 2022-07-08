@@ -66,9 +66,17 @@ h3 {
   line-height: 30px;
   padding: 20px;
 }
+h4 {
+  font: 400 1.1em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 20px;
+}
 p {
-  font: 300 2vw 'Manrope', sans-serif;
-  line-height: 45px;
+  font: 400 1em 'Manrope', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding: 5px 20px;
 }
 @media screen and (max-width: 768px) {
   p {
@@ -140,11 +148,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me, #core-blog, #identity-values, #learning-plan {
-  font: 300 10vw 'Manrope', sans-serif;
+#about-me, #core-blog, #identity-values, #learning-plan, #sprint-2-tech {
+  font: 300 8vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header {
+.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header, .sprint-2-tech-header {
   height: 15vh;
   background-color: #ff5900;
 }
@@ -155,15 +163,14 @@ img {
   line-height: 100px;
   
 }
-p {
-  font: 400 1em 'Manrope', sans-serif;
-  text-align: left;
-  line-height: 30px;
-  padding: 5px 20px;
-}
 .text-container {
   width: 75vw;
   margin: 100px auto;
   padding: 30px;
   background-color: #d6d6d6;
+}
+.sprint-2-list {
+  list-style: inside;
+  font: 400 1em 'Manrope', sans-serif;
+  line-height: 30px;
 }
