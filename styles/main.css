@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-li {
+.nav li {
   list-style: none;
   float: left;
 }
@@ -134,11 +134,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me {
+#about-me, #core-blog {
   font: 300 10vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header {
+.about-me-header, .core-blog-header {
   height: 15vh;
   background-color: #ff5900;
 }
