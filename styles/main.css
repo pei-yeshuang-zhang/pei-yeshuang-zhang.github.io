@@ -140,11 +140,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me, #core-blog, #identity-values {
+#about-me, #core-blog, #identity-values, #learning-plan {
   font: 300 10vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header, .core-blog-header, .identity-values-header {
+.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header {
   height: 15vh;
   background-color: #ff5900;
 }
