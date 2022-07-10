@@ -148,11 +148,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me, #core-blog, #identity-values, #learning-plan, #sprint-2-tech, #tech-blog, #emotional-intelligence {
+#about-me, #core-blog, #identity-values, #learning-plan, #sprint-2-tech, #tech-blog, #emotional-intelligence, #javasript-dom {
   font: 300 8vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header, .sprint-2-tech-header, .tech-blog-header, .emotional-intelligence-header {
+.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header, .sprint-2-tech-header, .tech-blog-header, .emotional-intelligence-header, .javasript-dom-header {
   height: 15vh;
   background-color: #ff5900;
 }
@@ -169,7 +169,7 @@ img {
   padding: 30px;
   background-color: #d6d6d6;
 }
-.sprint-2-list {
+.sprint-2-list, .control-flow {
   list-style: inside;
   font: 400 1em 'Manrope', sans-serif;
   line-height: 30px;
