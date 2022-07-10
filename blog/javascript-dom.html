@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <title>Blog Site | Pei Zhang</title>
+</head>
+<body>
+<div class="topbar-container"  id="back-to-top">
+  <ul class="nav">
+    <li class="nav-link"><a href="../index.html">Home</a></li>
+    <li class="nav-link"><a href="tech-blog-page.html">Tech</a></li>
+    <li class="nav-link"><a href="core-blog-page.html">Core</a></li>
+    <li class="nav-link"><a href="about-me.html">About</a></li>
+  </ul>
+</div>
+<div class="javasript-dom-header"><h1 id="javasript-dom">JavaScript & DOM</h1>
+<div class="text-container">
+  <h3>JavaScript and its relationship to HTML and CSS</h3>
+  <p>Imagine a construction process. The HTML is the engineer, CSS is the interior designer, and JavaScript is the project manager.</p>
+  <p>When you build the basic structure using HTML, it's like an engineer is preparing an architectural blueprint; they need to figure out the skeleton of the building, for example, how many floors are there in this building and what is each floor used for.</p>
+  <p>Once the HTML has completed the web layout, the next step is to make the website pages look better, just as interior designers need to choose paint colors and flooring materials for a building.</p>
+  <p>Then comes JavaScript; its job is to give the web page functionality. Just like the project manager needs to ensure that every part in the building is functioning properly and coordinate with engineers and interior designers.</p>
+  <h3>Control flow and loops</h3>
+  <p>Control flow in JavaScript is how your computer runs code from top to bottom. It starts from the first line and ends at the last line unless it hits any statement that changes the program's control flow, such as loops. When it hits a loop, that loop will pause the control flow and repeat a block of code until a specific condition is met.</p>
+  <p>Let's think about walking your dog as an example (I know it's maybe a little bit weird but that is all I can think of right now, sorry about that):</p>
+  <ul class="control-flow">
+    <br>
+    <li>Put your dog on leash</li>
+    <li>Take some waste bags with you</li>
+    <li>Go out</li>
+    <li>Walk your dog</li>
+    <li>Check if your dog has pooped</li>
+    <li>If yes, take her home</li>
+    <li>If no, keep walking</li>
+    <br>
+  </ul>
+  <h3>What is the DOM</h3>
+  <p>DOM stands for Document Object Model. In the world of web, all HTML webpages are referred to as documents. The Document Object Model represents each of these web pages in a tree-like structure to make it easier to access and manage the elements.</p> 
+  <p>In JavaScript, DOM is actually a class that makes it really easy to define each element present within a web page so it can be modified later. Whenever a page is loaded in the browser, its document object is formed that is named as “document”. You can apply built-in methods on this object to access and modify the HTML elements.</p>
+  <h3>Difference between accessing data from arrays and objects</h3>
+  <p>An array is an ordered list of values. Each value is called an element specified by an index (which starts at 0). We can use this index to access different values from the array. An example of accessing data from an array can be seen below:</p>
+  <div><img style="height: 50%; width: 50%; margin: 0 auto; padding: 30px; display: block;" src="../image/array.png" alt="array"></div>
+  <p>An object is similar to array as they both store data, however each value is assigned to a key, so called “key-value pairs”. An example of accessing data from an object can be seen below:</p>
+  <div><img style="height: 50%; width: 50%; margin: 0 auto; padding: 30px; display: block;" src="../image/object.png" alt=""></div>
+  <h3>What functions are and why they are helpful</h3>
+  <p>Simply put, a function allows you to define a block of code, give it a name and then execute it as many times as you want. This eliminates the need of writing the same code again and again. It helps programmers in writing modular codes. Functions allow a programmer to divide a big program into a number of small and manageable functions.</p>
+  <p>Imagine you are running a small business, and have over a hundred customers. Every time a new customer signs up on your website, you have to send them a greeting email. Instead of writing the same email every time, we could just simply write a function and call it (run it) when you need to send a new customer a repetitive email.</p>
