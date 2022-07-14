@@ -151,11 +151,11 @@ img {
   height: 8vh;
   border-top: 0.2vh solid #7F8487;
 }
-#about-me, #core-blog, #identity-values, #learning-plan, #sprint-2-tech, #tech-blog, #emotional-intelligence, #javasript-dom {
+.blog-header {
   font: 300 8vw 'Manrope', sans-serif;
   text-align: center;
 }
-.about-me-header, .core-blog-header, .identity-values-header, .learning-plan-header, .sprint-2-tech-header, .tech-blog-header, .emotional-intelligence-header, .javasript-dom-header {
+.header-container {
   height: 15vh;
   background-color: #ff5900;
 }
