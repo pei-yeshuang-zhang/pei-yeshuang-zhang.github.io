@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Nunito:wght@400&display=swap" rel="stylesheet">
+  <title>Blog Site | Pei Zhang</title>
+</head>
+<body>
+<div class="topbar-container"  id="back-to-top">
+  <ul class="nav">
+    <li class="nav-link"><a href="../index.html">Home</a></li>
+    <li class="nav-link"><a href="tech-blog-page.html">Tech</a></li>
+    <li class="nav-link"><a href="core-blog-page.html">Core</a></li>
+    <li class="nav-link"><a href="about-me.html">About</a></li>
+  </ul>
+</div>
+<div class="header-container"><h1 class="blog-header">Problem Solving</h1>
+<div class="text-container">
+  <h3>A time when I was blocked by a simple problem</h3>
+    <p>
+      I got stuck by a fairly simple problem when I was working on the Manipulating Objects Challenge. 
+    </p>
+    <p>
+      The task was to add, change or remove properties to an existing object without altering the object itself. For example, I need to add a spouse key to <code>terah</code> and assign it the value of  <code>adam</code>, and this was what I did:
+    </p>
+    <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="eYMBpXa" data-user="pei-yeshuang-zhang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/pei-yeshuang-zhang/pen/eYMBpXa">
+        problem-solving</a> by pei-zhang (<a href="https://codepen.io/pei-yeshuang-zhang">@pei-yeshuang-zhang</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <p>
+      At first it didn't seem like a problem, but as more and more properties needed to be added or altered, I was re-declaring more and more variables, and that's when things got weird. I started thinking: Is this JavaScript sheet really supposed to be this long???
+    </p>
+    <p>
+      I took a screenshot of my code and showed it to one of my coding friends, she laughed at me so hard and said that I needed to google it. I went to google in tears and typed in <em>how to add a property to object javascript</em>. So thanks to my old friend Google, this was how my code looked like in the end:
+    </p>
+    <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="zYWorPB" data-user="pei-yeshuang-zhang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/pei-yeshuang-zhang/pen/zYWorPB">
+      problem-solving2</a> by pei-zhang (<a href="https://codepen.io/pei-yeshuang-zhang">@pei-yeshuang-zhang</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <p>
+      What I learned was not to spend too much time figuring out a single problem; sometimes just a simple googling could make your life so much easier.
+    </p>
+
+  <h3>Elegantly solved a problem</h3>
+    <p>
+      A problem I managed to solve elegantly was Gradebook Challenge.
+    </p>
+    <p>
+      In this challenge, an array of students' names and an array of their respective test scores were provided, what we needed to do was to create a variable <code>gradebook</code> and assign it the value of an empty object, then next step was to add each student (from the <code>students</code> array) as a property to the <code>gradebook</code> object. The key should equal the student’s name and the value should equal a new object.
+    </p>
+    <p>
+      Below was my first attempt:
+    </p>
+    <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="BarQjeE" data-user="pei-yeshuang-zhang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/pei-yeshuang-zhang/pen/BarQjeE">
+      problem-solving3</a> by pei-zhang (<a href="https://codepen.io/pei-yeshuang-zhang">@pei-yeshuang-zhang</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <p>
+      After a second thought, I believed a more elegant solution would be using for loop to iterate each student in the <code>students</code> array. So here was my final attempt:
+    </p>
+    <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="BarQjeE" data-user="pei-yeshuang-zhang" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+      <span>See the Pen <a href="https://codepen.io/pei-yeshuang-zhang/pen/BarQjeE">
+      problem-solving3</a> by pei-zhang (<a href="https://codepen.io/pei-yeshuang-zhang">@pei-yeshuang-zhang</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <p>
+      The code now looks much simpler and more elegant. I learned that taking time to refactor code is very useful and necessary; it improves the quality of our code and, even better, gives us a sense of accomplishment.
+    </p>    
+    
+  <h3>Reflect on how confident you feel using each of these problem-solving techniques/processes</h3>
+  <p>
+    <strong>Pseudocode</strong>
+  </p>
+  <p>
+    Pseudocode is something I am trying to do more of, as it helps us break down the complex functions into small bits.
+  </p>
+  <p>
+    <strong>Trying something</strong>
+  </p>
+  <p>
+    This is what I do first when I get stuck, it's always good to give it a go. Don't be afraid of making mistakes, you can always undo.
+  </p>
+  <p>
+    <strong>Rubber ducky method</strong>
+  </p>
+  <p>
+    This method is to explain to an object (like a rubber ducky) the problem you are facing in your code. It's supposed to help you clear your mind and bring clarity to a solution. I haven't tried this method yet because I feel awkward talking to a toy. Guess I just prefer to talk to something that can talk back to me.
+  </p>
+  <p>
+    <strong>Reading error messages</strong>
+  </p>
+  <p>
+    Error messages confused me at the first, but now I found it super useful. It's like a guide that lead me to the right direction.
+  </p>
+  <p>
+    <strong>Console.logging</strong>
+  </p>
+  <p>
+    I use this when I need to check if my code is functioning well. It's a very useful and important method.
+  </p>
+  <p>
+    <strong>Googling</strong>
+  </p>
+  <p>
+    Trust me, I do this A LOT. My tech life would be miserable without Google.
+  </p>
+  <p>
+    <strong>Asking your peers for help</strong>
+  </p>
+  <p>
+    I often discuss problems with a friend of mine who is also studying programming.
+  </p>
+  <p>
+    <strong>Asking coaches for help</strong>
+  </p>
+  <p>
+    I haven't done this yet, but I believe I will if I truly get stuck.
+  </p>
+  <p>
+    <strong>Improving your process with reflection</strong>
+  </p>
+  <p>
+    I'm confident about this one as I use it all the time, I like to go back and see if there are any improvements I can make, and I enjoy the sense of accomplishment I gain when I refactor my code and make it better in any way.
+  </p>
